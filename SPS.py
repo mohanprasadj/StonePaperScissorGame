@@ -11,9 +11,9 @@ def write_output(inp,inp1):
 		comp1="PAPER"
 	elif comp==2:
 		comp1="SCISSOR"
-	if(inp==0 and comp==2) or (inp==1 and comp==0) or (inp==2 and comp==1)
+	if (inp==0 and comp==2) or (inp==1 and comp==0) or (inp==2 and comp==1):
 		messagebox.showinfo("Result","User : "+inp1+"\nComputer : "+comp1+"\nYou Won!")
-	elif(inp==0 and comp==1) or (inp==1 and comp==2) or (inp==2 and comp==0)
+	elif(inp==0 and comp==1) or (inp==1 and comp==2) or (inp==2 and comp==0):
 		messagebox.showinfo("Result","User : "+inp1+"\nComputer : "+comp1+"\nYou Lose!")
 	else:
 		messagebox.showinfo("Result","User : "+inp1+"\nComputer : "+comp1+"\nIts a TIE!")
